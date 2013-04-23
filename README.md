@@ -7,6 +7,9 @@ Based heavily on John Eskilsson's implementation of [yiiron](https://github.com/
 
 I set mine up as 'iron' instead of 'cache', because I only want to use the IronCache for a few things and the FileCache for the rest.
 
+To learn more, read the blog post here: [http://aaronfrancis.com/blog/2013/4/9/some-thoughts-about-hosting-yii-on-heroku](http://aaronfrancis.com/blog/2013/4/9/some-thoughts-about-hosting-yii-on-heroku)
+
+
 ````
 'components'=>array(
 	'cache'=>array(
